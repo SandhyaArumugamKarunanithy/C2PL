@@ -13,3 +13,5 @@ releases the locks and cannot request any new locks. This is called the shrinkin
 phase. Every transaction that follows a two-phase locking protocol is guaranteed to be
 serializable. However, this approach provides low parallelism between two conflicting
 transactions.
+
+Languages used: Java
